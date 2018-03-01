@@ -1,0 +1,112 @@
+// Typography
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  //font-weight: $font-normal;
+}
+
+/*h1 { font-size: 2.9rem; line-height: 1.2;  letter-spacing: .29rem;  }
+h2 { font-size: 3.2rem; line-height: 1.2; letter-spacing: .123rem;  }
+h3 { font-size: 1rem; line-height: 1.3;  letter-spacing: -.1rem;  }
+h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0;       }
+
+// Larger than phablet
+@media (#{$bp-larger-than-phablet}) {
+  //h1 { font-size: 3.75rem; }
+  //h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}*/
+
+
+
+p {
+  margin-top: 0;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-family: $font-heading;
+  font-weight: $font-normal;
+  font-size: 11rem;
+  letter-spacing: -.015rem;
+  color: $wheat;
+  word-spacing: .1em;
+  text-shadow:
+    1px 1px 0 rgba($grey, 0.25),
+    -1px -1px 0 rgba($grey, 0.25),
+    2px 2px 10px #424242;
+}
+
+h2 {
+
+  font-family: $font-secondary;
+  color: $forest;
+  background: #f9f9f9;
+  border-bottom: 10px solid $sunset;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  width: 30%;
+
+&:before {
+  content: '';
+  padding: 10px;
+}
+
+}
+
+h3 {
+  font-family: $font-heading;
+  font-size: 3.5em;
+  font-weight: $font-normal;
+  line-height: 1.2;
+}
+
+h4 {
+  font-family: $font-family;
+  font-size: 1.5em;
+  color: $wheat;
+  font-weight: $font-normal;
+  //background: rgba($moss, 1);
+  //padding: 20px 40px;
+  //mix-blend-mode: screen;
+}
+
+h5 {
+  font-family: $font-secondary;
+  color: $wheat;
+  font-weight: 300;
+  font-size: 1.45em;
+  line-height: 1.5;
+}
+
+.minibar {
+  p {
+    font-family: $font-secondary;
+    font-size: .85em;
+    font-color: $forest;
+    font-weight: $font-heavy;
+    letter-spacing: .03em;
+    margin-bottom: 0;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: $forest;
+
+    &:hover {background-color: $semi-sunset;}
+  }
+}
+
+.site--title {
+  color: $sunset;
+  font-weight: $font-heavy;
+}
+

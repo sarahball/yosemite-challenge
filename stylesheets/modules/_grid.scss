@@ -1,0 +1,39 @@
+// Grid
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Container Grid
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+  
+@mixin define($section) {
+  grid-area: #{$section};
+}
+
+@each $section in 'minibar' 'header--img' 'header--cta' 'content'{
+  .#{$section} {
+    @include define(#{$section});
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 7vw auto 20vw ;
+  grid-template-areas: 
+  "minibar header--img header--cta"
+  "minibar content content";
+}
+
+
+.donate {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 7vw 40vw auto ;
+    grid-template-areas: 
+    "minibar header--img header--cta";
+  }
+
+  &--grid {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-gap: 10px;
+  }
+}

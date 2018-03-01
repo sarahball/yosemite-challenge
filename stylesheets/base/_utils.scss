@@ -1,0 +1,26 @@
+// Utilities
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.fit {
+	max-width: calc(100% - 40px);
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.hidden {display: none;}
+
+.shadow {
+	text-shadow:
+	  1px 1px 0 rgba($grey, 0.25),
+	  -1px -1px 0 rgba($grey, 0.25),
+	  2px 2px 10px #424242;
+}

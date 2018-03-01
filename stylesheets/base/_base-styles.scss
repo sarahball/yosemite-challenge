@@ -1,0 +1,48 @@
+// Base Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: $white;
+}
+
+body {
+  font-size: $font-size;
+  line-height: 1.6;
+  font-weight: $font-normal;
+  font-family: $font-family;
+  color: $font-color;
+  min-height: 100vh;
+}
+
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+// Misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+*:focus {
+  outline: none;
+}
+
+svg {display: block;}
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid $light-grey;
+}
+
+// Larger than tablet
+@media (#{$bp-larger-than-tablet}) {
+}
+
+// Larger than desktop
+@media (#{$bp-larger-than-desktop}) {}

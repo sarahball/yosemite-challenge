@@ -1,0 +1,49 @@
+// Variables
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Breakpoints
+$bp-larger-than-mobile    : "min-width: 400px" !default;
+$bp-larger-than-phablet   : "min-width: 550px" !default;
+$bp-larger-than-tablet    : "min-width: 750px" !default;
+$bp-larger-than-desktop   : "min-width: 1000px" !default;
+$bp-larger-than-desktophd : "min-width: 1200px" !default;
+
+// Colors
+$tangerine: #d4114e !default;
+$light-grey: #e1e1e1 !default;
+$gradient-1a: #26D0CE !default;
+$gradient-1b: #1A2980 !default;
+$midnight: #00203B !default;
+$semi-turquoise: rgba(#28D6D5, 0.5) !default;
+
+$grey: #424242 !default;
+$white: #EFFFF4 !default;
+$forest: #18281D !default;
+$moss: #467555 !default;
+$wheat: #F9E7BB !default;
+$sunset: #F58B60 !default;
+$semi-sunset: rgba($sunset, 0.25) !default;
+
+// Typography
+$font-family: Apercu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-heading: 'Vidaloka', serif !default;
+$font-secondary: 'Roboto Condensed', sans-serif !default;
+$font-size: 1.5em !default;
+$font-color: $grey !default;
+$font-normal: 400 !default;
+$font-heavy: 700 !default;
+
+//Grid Variables
+$container-width: 1024px !default;
+$container-width-larger-than-mobile: 85% !default;
+$container-width-larger-than-tablet: 80% !default;
+$total-columns: 12 !default;
+$column-width: 100 / $total-columns !default; // calculates individual column width based off of # of columns
+$column-margin: 4% !default; // space between columns
+
+// Misc
+$space: 45px !default;
+$global-radius: 4px !default;
+$border: 2px solid $white !default;
+$minibar-size: 45px !default;
+$tab-size: 60px !default;
