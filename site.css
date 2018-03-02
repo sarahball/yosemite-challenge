@@ -386,6 +386,7 @@ h5 {
   text-align: center; }
 
 .header--img {
+  padding: 20px 0;
   min-height: 600px;
   background: linear-gradient(rgba(24, 40, 29, 0.6), rgba(24, 40, 29, 0.6)), url(img/ansel.jpg) no-repeat left center;
   -webkit-background-size: cover;
@@ -393,8 +394,9 @@ h5 {
   -o-background-size: cover;
   background-size: cover;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: space-between; }
 
 .header--cta {
   background-color: #18281D;
@@ -402,6 +404,12 @@ h5 {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+
+.header--menu {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: .8em; }
 
 .cta--container-top {
   height: 50%; }
