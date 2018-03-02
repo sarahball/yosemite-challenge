@@ -386,7 +386,7 @@ h5 {
   text-align: center; }
 
 .header--img {
-  min-height: 500px;
+  min-height: 600px;
   background: linear-gradient(rgba(24, 40, 29, 0.6), rgba(24, 40, 29, 0.6)), url(img/ansel.jpg) no-repeat left center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
