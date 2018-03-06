@@ -89,6 +89,48 @@
 
 .content {padding: 60px 10% 100px;}
 
+/* Alert */
+
+@media (max-width: 979px) {
+	.alert {
+		position: absolute;
+		width: 70vw;
+		height: 70vh;
+		z-index: 100;
+		background-color: $moss;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 15vh 15vw;
+		overflow: hidden;
+
+		h4 {color: $forest;}
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1499px) {
+	.alert {
+		display: none;
+	}
+}
+
+@media (min-width: 1500px) {
+	.alert {
+		position: absolute;
+		width: 70vw;
+		height: 70vh;
+		z-index: 100;
+		background-color: $moss;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 15vh 15vw;
+		overflow: hidden;
+
+		h4 {color: $forest;}
+	}
+}
+
 
 /* Donate */
 
@@ -99,7 +141,7 @@
 		&--img {
 			min-height: 100vh;
 			background:
-			url(img/muir.jpg) no-repeat left center; 
+			url(img/muir.jpg) no-repeat center center; 
 			  -webkit-background-size: cover;
 			  -moz-background-size: cover;
 			  -o-background-size: cover;
